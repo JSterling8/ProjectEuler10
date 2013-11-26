@@ -6,10 +6,11 @@ public class PrimeFinder {
 
 	/**
 	 * Uses the Sieve of Eratosthenes to find all primes
-	 * between 0 and a specified maximum value.
+	 * between 0 and a specified maximum value, then adds
+	 * them all together and returns the sum.
 	 * 
 	 * @param maxPrime Range 0 - maxPrime
-	 * @return The number of primes in range 0 - maxPrime
+	 * @return The sum of all primes in range [0 - maxPrime]
 	 */
 	public long find(int maxPrime)
 	{
