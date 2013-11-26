@@ -41,8 +41,8 @@ public class PrimeFinder {
 	/**
 	 * Reads an array and counts all of the true values.
 	 * 
-	 * @param primes The boolean array you want to count true values of.
-	 * @return The number of true values in that array.
+	 * @param primes The boolean array you want to sum the true values of.
+	 * @return The sum of the indices of true values in the array.
 	 */
 	public long count (boolean[] primes){
 		long sum = 0;
